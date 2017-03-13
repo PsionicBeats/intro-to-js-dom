@@ -9,4 +9,4 @@ console.log(idElement);
 var blehTag = document.getElementsByTagName("script");
 console.log(blehTag);
 
-console.log(document.getElementsByClassName("use-class-method-1"));
+console.log(document.getElementsByClassName("use-class-method"));
