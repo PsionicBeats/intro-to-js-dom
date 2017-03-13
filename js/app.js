@@ -5,5 +5,8 @@ console.log("sanity check");
 var idElement = document.getElementById("use-id-method");
 console.log(idElement);
 
-var idTag = document.getElementsByTagName("script");
-console.log(idTag);
+// Select things like div / script < These are called Tags.
+var blehTag = document.getElementsByTagName("script");
+console.log(blehTag);
+
+console.log(document.getElementsByClassName("use-class-method-1"));
